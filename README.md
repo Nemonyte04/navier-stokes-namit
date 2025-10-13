@@ -18,13 +18,9 @@ The computational framework developed in this project can serve as a valuable to
 
 ## Mathematical method
 The simulation solves the incompressible Navier–Stokes equations in vorticity–stream function form:
-$
-\nabla^2 \psi = -\omega
-$
+$$ \nabla^2 \psi = -\omega $$
 
-$
-\frac{\partial \omega}{\partial t} + u \frac{\partial \omega}{\partial x} + v \frac{\partial \omega}{\partial y} = \nu \nabla^2 \omega
-$
+$$ \frac{\partial \omega}{\partial t} + u \frac{\partial \omega}{\partial x} + v \frac{\partial \omega}{\partial y} = \nu \nabla^2 \omega $$
 
 where:  
 - ψ = stream function  
