@@ -17,15 +17,4 @@ The significance of this research lies in its potential applications across vari
 The computational framework developed in this project can serve as a valuable tool for researchers and engineers to explore and optimize designs involving confined fluid flow with obstacles or obstructions, ultimately leading to improved system performance, energy efficiency, and operational safety.
 
 ## Mathematical method
-The simulation solves the incompressible Navier–Stokes equations in vorticity–stream function form:
-$$ \nabla^2 \psi = -\omega $$
-
-$$ \frac{\partial \omega}{\partial t} + u \frac{\partial \omega}{\partial x} + v \frac{\partial \omega}{\partial y} = \nu \nabla^2 \omega $$
-
-where:  
-- ψ = stream function  
-- ω = vorticity  
-- u, v = velocity components derived from ψ  
-- ν = 1/Re = kinematic viscosity  
-
-A detailed mathematical background is given in the included report.
+The simulation solves the incompressible Navier–Stokes equations in vorticity–stream function form. A detailed mathematical background is given in the included report.
